@@ -8,14 +8,14 @@ hero:
   tagline: Javascript, Typescript, React, and more
   actions:
     - theme: brand
+      text: React
+      link: /react/
+    - theme: alt
       text: Javascript
       link: /javascript/
     - theme: alt
       text: Typescript
       link: /typescript/
-    - theme: alt
-      text: React
-      link: /react/
 
 features:
   - title: Comprehensive list of questions
