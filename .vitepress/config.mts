@@ -6,24 +6,37 @@ export default defineConfig({
   description: "List of frontend interview questions",
   srcDir: 'docs',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Javascript', link: '/markdown-examples' },
+      { text: 'Typescript', link: '/markdown-examples' },
+      { text: 'React', link: '/markdown-examples' }
     ],
-
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Javascript',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Typescript',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'React',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/armancodv/frontend-interview' }
     ]
   }
 })

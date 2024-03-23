@@ -5,21 +5,24 @@ layout: home
 hero:
   name: "Frontend Interview"
   text: "List of frontend interview questions"
-  tagline: My great project tagline
+  tagline: Javascript, Typescript, React, and more
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Javascript
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Typescript
+      link: /api-examples
+    - theme: alt
+      text: React
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Comprehensive list of questions
+    details: You can find questions on Javascript, Typescript, React, and more
+  - title: Simple answers
+    details: Answers are simple and easy to understand for every level of experience
+  - title: Open source
+    details: You can edit the answers and contribute to this project on Github
 ---
 
