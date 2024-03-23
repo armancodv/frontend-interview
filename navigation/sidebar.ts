@@ -7,8 +7,6 @@ export const sidebar: DefaultTheme.Sidebar = [
 		items: [
 			{ text: 'Introduction', link: '/' },
 			{ text: 'Components', link: '/components' },
-			{ text: 'State and Props', link: '/state-and-props' },
-			{ text: 'Component Lifecycle', link: '/component-lifecycle' },
 			{ text: 'Hooks', link: '/hooks' },
 			{ text: 'Router', link: '/router' },
 			{ text: 'State Management', link: '/state-management' },

@@ -33,11 +33,28 @@ The core concept of React is to make building user interfaces easier and more ef
 
 ## What is the Virtual DOM?
 
-The virtual DOM is like a blueprint of a webpage that exists in memory. It's a simplified version of the actual webpage's structure and content. When something changes on a webpage, like a user clicking a button or updating some text, instead of directly changing the real webpage, the virtual DOM gets updated first. Then, a process called "reconciliation" compares the updated virtual DOM with the previous one to identify what exactly changed. After this, only the specific parts of the real webpage that need to change are updated, making the process faster and more efficient. So, the virtual DOM helps in managing and updating webpages smoothly without constantly redrawing the entire page.
+The virtual DOM is like a blueprint of a webpage that exists in memory. It's a simplified version of the actual webpage's structure and content. When something changes on a webpage, like a user clicking a button or updating some text, instead of directly changing the real webpage, the virtual DOM gets updated first. Then, a process called `reconciliation` compares the updated virtual DOM with the previous one to identify what exactly changed. After this, only the specific parts of the real webpage that need to change are updated, making the process faster and more efficient. So, the virtual DOM helps in managing and updating webpages smoothly without constantly redrawing the entire page.
 
 ::: tip Key Points
 - The virtual DOM is a simplified representation of a webpage's structure and content that exists in memory.
 - This allows for efficient updates as only the specific parts of the real webpage that need to change are updated.
+:::
+
+## What is the difference between Shadow DOM and Virtual DOM?
+
+Shadow DOM and Virtual DOM are both techniques used in web development, but they serve different purposes. The Shadow DOM is a way to encapsulate and isolate components in a web page, keeping their styles and functionality separate from the rest of the page. It helps prevent conflicts between different parts of a web page and makes it easier to manage complex applications. On the other hand, Virtual DOM is a concept used by frameworks like React to improve performance. It's a lightweight copy of the actual DOM (Document Object Model) that the framework uses to track changes. When changes occur, the Virtual DOM is updated instead of the real DOM, which is faster. Then, only the specific parts that have changed are updated in the real DOM, reducing the need for expensive DOM operations. So, in short, Shadow DOM is about encapsulation and isolation, while Virtual DOM is about optimizing performance by minimizing DOM updates.
+
+::: tip Key Points
+- Shadow DOM encapsulates and isolates components in a web page.
+- It keeps styles and functionality separate from the rest of the page.
+- It prevents conflicts between different parts of a web page.
+- Virtual DOM is lightweight copy of the actual DOM (Document Object Model).
+- It tracks changes in the DOM efficiently.
+- It minimizes expensive DOM operations, enhancing performance.
+:::
+
+::: warning Hint
+- React uses a virtual DOM.
 :::
 
 ## How react improves the performance?
@@ -47,6 +64,15 @@ React improves performance primarily through its virtual DOM (Document Object Mo
 ::: tip Key Points
 - React uses a virtual DOM (Document Object Model) to improve performance.
 - React's reconciliation algorithm efficiently compares the virtual DOM with the actual DOM to identify differences.
+:::
+
+## What is reconciliation?
+
+In React, reconciliation is like a process where React compares the new changes you made in your app with the old version to figure out what needs updating. It's a bit like comparing two lists to see what's different. React does this to be efficient—it only updates the parts of your app that actually changed, instead of redoing everything. This helps in keeping your app fast and responsive, especially when dealing with a lot of dynamic content or frequent updates. So, reconciliation is basically React's way of making sure your app stays up to date without wasting unnecessary resources.
+
+::: tip Key Points
+- Reconciliation in React is like comparing changes in your app with the old version.
+- React does this comparison to avoid unnecessary updates, keeping the app fast.
 :::
 
 ## What is JSX in React?
