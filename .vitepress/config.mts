@@ -8,6 +8,7 @@ export default defineConfig({
     title: "Frontend Interview",
     description: "List of frontend interview questions",
     srcDir: 'docs',
+    outDir: 'dist',
     themeConfig: {
         nav: navItems,
         sidebar: sidebar,
