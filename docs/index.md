@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: Javascript
-      link: /markdown-examples
+      link: /javascript/
     - theme: alt
       text: Typescript
-      link: /api-examples
+      link: /typescript/
     - theme: alt
       text: React
-      link: /api-examples
+      link: /react/
 
 features:
   - title: Comprehensive list of questions
