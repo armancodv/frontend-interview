@@ -17,7 +17,7 @@ export const Button = () => {
 
 In this code, we define a `Button` component that simply renders a button element with the text `Click me`. This component can be used anywhere in our React application by simply importing it and including it in our JSX code.
 
-::: tip Key Points
+::: tip
 - React components are reusable building blocks for creating user interfaces.
 - Each component represents a specific part of a webpage or application.
 - Components can have their own functionality and appearance.
@@ -28,7 +28,7 @@ In this code, we define a `Button` component that simply renders a button elemen
 
 Yes, components in React are reusable. Think of them like building blocks you can use over and over again in different parts of your application. When you create a component, you're essentially making a custom piece of code that does a specific job. Once you've built it, you can use it wherever you need that functionality without having to rewrite the code each time. This saves time and makes your code easier to manage because you can just plug in the component wherever you need it instead of recreating it from scratch. So, yes, React components are indeed reusable!
 
-::: tip Key Points
+::: tip
 - React components are reusable.
 - Components act like building blocks for your application.
 - Once created, components can be used multiple times in different parts of the application.
@@ -60,14 +60,14 @@ export default ClassComponent;
 
 Overall, both types of components achieve the same goal of building user interfaces in React, but they differ in syntax.
 
-::: tip Key Points
+::: tip
 - Function components are written as regular JavaScript functions, while class-based components are defined using ES6 classes.
 - Function components are simpler and more concise compared to class-based components.
 - Function components are easier to understand and write due to their simplicity.
 - Both types of components serve the purpose of building user interfaces in React, but they differ in syntax.
 :::
 
-::: warning Hint
+::: warning
 - You should avoid using class components because they are an older way of writing code in React.
 :::
 
@@ -75,7 +75,7 @@ Overall, both types of components achieve the same goal of building user interfa
 
 You should avoid using class components because they are an older way of writing code in React, which can make your code longer and more complicated. With newer versions of React, functional components with hooks are preferred because they are simpler, shorter, and easier to understand. Functional components also encourage better code organization and can improve performance in your applications. So, if you can, it's better to use functional components instead of class components in React.
 
-::: tip Key Points
+::: tip
 - Class components are an older way of writing code in React.
 - They can make your code longer and more complex.
 - Functional components with hooks are preferred in newer versions of React.
@@ -105,7 +105,7 @@ function ChildComponent(props) {
 
 Here, `props` is an object containing all the props passed to the component. So, `props.message` would give you the message sent from `ParentComponent`. That's how props work in React components!
 
-::: tip Key Points
+::: tip
 - Props in React components are like messages or data that can be passed from a parent component to a child component.
 - They allow for communication between different parts of a React application.
 - Props are received as a parameter in the component and are accessed through an object called `props`.
@@ -131,7 +131,7 @@ function Counter() {
 
 In this example, `useState(0)` is used to declare a state variable named `count` with an initial value of 0. `setCount` is a function that allows you to update the value of `count`. When the button is clicked, it calls `setCount` to increment the count by 1, and React re-renders the component with the updated count value.
 
-::: tip Key Points
+::: tip
 - States in components in React are containers for holding data within the component.
 - They help manage and update information dynamically.
 - Syntax: Utilize the `useState()` hook to declare a state variable and its initial value.
@@ -143,7 +143,7 @@ In this example, `useState(0)` is used to declare a state variable named `count`
 
 In React, the difference between state and props is important to understand. State is like a memory that each component can keep track of. It's data that can change over time, and when it does, React re-renders the component to reflect those changes. Props, on the other hand, are like parameters that you pass to a component when you first create it. They are immutable (which means they cannot be changed by the component itself) and are used to customize or configure a component when it's rendered. So, while state is internal and can change, props are external and can't be changed by the component receiving them.
 
-::: tip Key Points
+::: tip
 - State acts like a memory within a component.
 - It Represents data that can change over time.
 - Changes to state trigger re-renders of the component.
@@ -157,7 +157,7 @@ In React, the difference between state and props is important to understand. Sta
 
 In React, we use `state` and `props` to manage and pass data around our components. We use `state` when we need to manage data within a component itself that can change over time, like user input or the result of an API call. `props`, short for properties, are used to pass data from a parent component to a child component. We use props when we want to share information from a parent component to its children. So, to decide when to use state or props, remember: state is for managing data within a component, and props are for passing data from parent to child components.
 
-::: tip Key Points
+::: tip
 - Use `state` in React to manage data within a component itself.
 - State is suitable for managing data that can change over time, like user input or API responses.
 - Use `props` (properties) to pass data from a parent component to a child component.
@@ -181,7 +181,7 @@ function Button() {
 
 In this code, we have a React component called `Button`. Inside this component, there's a function called `handleClick`, which simply shows an alert saying 'Button clicked!' when the button is clicked.
 
-::: tip Key Points
+::: tip
 - In React, handling events means defining what happens when users interact with your app, like clicking a button.
 - To handle events, you create special functions called event handlers.
 - Event handlers can perform tasks like updating data or changing what's displayed on the screen.
@@ -211,7 +211,7 @@ function MyComponent({ isLoggedIn }) {
 
 In this code, `isLoggedIn` is a prop that tells us whether the user is logged in or not. If `isLoggedIn` is `true`, it shows `Welcome back!`, and if it's `false`, it shows `Please log in to continue.` This way, the content changes based on the condition provided.
 
-::: tip Key Points
+::: tip
 - In React components, you can render different content based on conditions using conditional rendering.
 - Common ways to do this include using the `if` statement or the ternary operator `? :`.
 - This allows content to dynamically change based on the provided conditions.
@@ -239,7 +239,7 @@ const MyComponent = () => {
 
 In this code, we have an array called `items` containing some sample items. Inside the `ul` element, we use `map` to iterate over each item in the array. For each item, we return a `li` element with the item's content. It's important to include a `key` prop when rendering lists in React to help React identify each list item uniquely.
 
-::: tip Key Points
+::: tip
 - Inside your component's render method, use the `map` function to iterate over each item in the array.
 - For each item, return a JSX element (like `li` for a list item) containing the item's content.
 - Include a `key` prop for each rendered item to help React identify them uniquely.
@@ -264,7 +264,7 @@ function MyListComponent() {
 
 In this code, each list item (`<li>`) gets a unique key based on its index in the `items` array. This helps React keep track of each item properly when the list changes.
 
-::: tip Key Points
+::: tip
 - The `key` prop in React components is used for identifying elements uniquely within a list.
 - It is particularly useful when rendering dynamic lists of items.
 - React uses the `key` prop to efficiently update the DOM when the list changes, avoiding unnecessary re-renders.
@@ -273,7 +273,7 @@ In this code, each list item (`<li>`) gets a unique key based on its index in th
 - Using the `key prop helps React optimize rendering performance and maintain the component's state accurately.
 :::
 
-::: warning Hint
+::: warning
 - Never use `index` as a key for list items.
 :::
 
@@ -300,7 +300,7 @@ const MyComponent = () => {
 
 In this example, `useRef` hook is used to create a ref named `myRef`. This ref is attached to the input field using the `ref` attribute. Later, when the button is clicked, the `focusInput` function is called, which focuses on the input field using the `current` property of the ref.
 
-::: tip Key Points
+::: tip
 - In React components, `ref` is a special attribute used to access DOM nodes or React elements created by JSX.
 - It facilitates direct interaction with these elements from within the component.
 - Common uses of `ref` include focusing on input fields, measuring dimensions, or accessing underlying DOM properties and methods.
@@ -338,7 +338,7 @@ const ParentComponent = () => {
 
 In this example, `ChildComponent` forwards the `ref` to the `<input>` element it renders. Then, in `ParentComponent`, we create a ref with `useRef()` and pass it to `ChildComponent`. This allows `ParentComponent` to access and control the `<input>` element inside `ChildComponent`, for example, to focus it when a button is clicked.
 
-::: tip Key Points
+::: tip
 - Forward refs in React allow a component to pass its ref down to a child component.
 - Useful for cases where a parent component needs to access or control a specific element in its child component.
 - Simplifies tasks like managing focus, triggering animations, or interacting with DOM elements directly.
@@ -374,7 +374,7 @@ function ControlledComponent() {
 
 In this code, the `inputValue` is a piece of state managed by React's `useState` hook. The `value` attribute of the `<input>` element is set to this `inputValue`, making it a controlled component. When you type into the input field, the `handleChange` function updates the `inputValue`, which in turn updates what is displayed in the input field and the `<p>` tag below it.
 
-::: tip Key Points
+::: tip
 - Controlled components in web development are input elements whose values are directly tied to the state of the application.
 - They are commonly used in frameworks like React to manage the state of user input.
 - When you type something into a controlled input field, the value is controlled by a variable in the code.
@@ -406,7 +406,7 @@ function UncontrolledComponent() {
 
 In this code, the input element doesn't rely on React state to control its value. Instead, it manages its value internally. We use a ref (`inputRef`) to access its current value when needed, like in the `handleClick` function.
 
-::: tip Key Points
+::: tip
 - Uncontrolled components manage their own state internally, rather than relying on React state.
 - Refs are used to access the current value of the uncontrolled component when needed, such as in event handlers or other functions.
 :::
@@ -449,7 +449,7 @@ function ExampleComponent() {
 
 In this example, `useEffect` hook is used to manage lifecycle events. The first function inside `useEffect` runs when component is mounted, similar to `componentDidMount` in class components. The returned function inside `useEffect` acts like `componentWillUnmount`, executing cleanup when the component is unmounted. The second function inside `useEffect` runs when `count` changes, similar to `componentDidUpdate` in class components.
 
-::: tip Key Points
+::: tip
 - Lifecycles in React functional components are stages a component goes through: creation, updating, and destruction.
 - Creation involves setting up initial state or fetching data.
 - Updating happens when props or state change, triggering rerendering.
@@ -481,7 +481,7 @@ const ColoredButton = withColor(Button, 'blue');
 
 In this example, `withColor` is a higher order component that takes `Button` and a color, then returns a new component `ColoredButton` which has the color property added to it. This allows us to reuse the color logic across multiple components.
 
-::: tip Key Points
+::: tip
 - Higher order components (HOCs) in React are like helper functions that enhance the capabilities of other components.
 - They take a component and return a new component with added features.
 - HOCs are useful for reusing logic across multiple components.
@@ -515,9 +515,76 @@ const ChildComponent = ({ children }) => {
 
 In this example, the content `This is passed from Parent!` gets sent from the ParentComponent to the ChildComponent through the `children` prop. Then, the ChildComponent can render this content wherever it wants within its own structure.
 
-::: tip Key Points
+::: tip
 - In React, the `children` prop allows components to pass elements or content to other components nested within them.
 - The parent component can send information or components to its child components through the `children` prop.
 - Child components can access this content using the `children` prop and render it wherever needed within their structure.
+:::
+
+
+## How to set class and styles in react components?
+
+In React, setting classes and styles in components is pretty straightforward. You can set classes using the `className` attribute, which works similarly to HTML's `class` attribute. For styles, you can use the `style` attribute, passing in a JavaScript object where keys are CSS properties in camelCase and values are the styles you want to apply. Here's a simple example:
+
+```jsx {2-6,9}
+const MyComponent = () => {
+  const customStyle = {
+    color: 'blue',
+    fontSize: '18px',
+    fontWeight: 'bold'
+  };
+
+  return (
+    <div className="myClass" style={customStyle}>
+      Hello, World!
+    </div>
+  );
+};
+```
+
+In this code, the `div` element has a class of `myClass and custom styles defined by the `customStyle` object.
+
+::: tip
+- To set classes in React components, use the `className` attribute, which functions like HTML's `class` attribute.
+- Define custom styles using the `style` attribute, passing in a JavaScript object where keys are CSS properties in camelCase and values are the styles you want to apply.
+:::
+
+## Why do we use `className` instead of `class`?
+
+In React, we use `className` instead of `class` because `class` is a reserved keyword in JavaScript used for defining classes in object-oriented programming. Since React code is written in JavaScript, using `class` directly could cause conflicts or confusion. So, to avoid this, React uses `className` to specify CSS classes for HTML elements. This way, we can style our components using CSS while avoiding any clashes with JavaScript's reserved keywords. Essentially, `className` serves the same purpose as `class` in HTML, allowing us to apply styles to elements.
+
+::: tip
+- In React, `className` is used instead of `class`.
+- `class` is a reserved keyword in JavaScript for defining classes.
+:::
+
+## How to name components in react?
+
+In React, naming components is important for clarity and organization in your code. When naming components, it's best to use descriptive names that accurately reflect their purpose or functionality. Make sure to use PascalCase convention for component names, starting with a capital letter. For example, if you're creating a component for a button, you might name it `Button` or `SubmitButton` if it's specifically for submitting forms. Avoid generic names like `Component` or `Item that don't provide much insight into what the component does. Good naming helps you and other developers understand your code better and makes it easier to maintain and work with in the long run.
+
+::: tip
+- Follow the PascalCase convention, starting with a capital letter.
+:::
+
+## What are fragments in react?
+
+In React, fragments are a way to group multiple elements together without adding extra nodes to the DOM. Normally, when you return multiple elements in React, you need to wrap them in a single parent element. Fragments allow you to avoid this by letting you return a group of elements as siblings. They're useful when you don't want to add an extra div or span just for the sake of structure. Here's a small sample code to illustrate:
+
+```jsx
+function MyComponent() {
+  return (
+    <>
+      <h1>Hello</h1>
+      <p>This is a paragraph.</p>
+    </>
+  );
+}
+```
+
+In this example, the `<React.Fragment>` tag (`<>` and `</>`) is used as a wrapper around the `<h1>` and `<p>` elements. It allows you to return multiple elements without introducing an unnecessary parent node in the DOM.
+
+::: tip
+- Fragments in React are used to group multiple elements together without adding extra nodes to the DOM.
+- You can use the shorthand syntax `<>` and `</>` to create fragments, allowing you to return multiple elements cleanly.
 :::
 
