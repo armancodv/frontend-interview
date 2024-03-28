@@ -8,6 +8,7 @@ export const sidebar: DefaultTheme.Sidebar = [
 			{ text: 'Basis', link: '/' },
 			{ text: 'Components', link: '/components' },
 			{ text: 'Hooks', link: '/hooks' },
+			{ text: 'Advanced', link: '/advanced' },
 		],
 	},
 	{

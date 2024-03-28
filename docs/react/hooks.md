@@ -1,4 +1,4 @@
-# Hooks
+# React Hooks
 
 ## What are react hooks?
 

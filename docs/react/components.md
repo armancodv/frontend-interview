@@ -1,4 +1,4 @@
-# Components
+# React Components
 
 
 ## What are React Components?
