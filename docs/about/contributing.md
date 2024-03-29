@@ -32,20 +32,25 @@ Welcome to the **Frontend Interview** repository! We appreciate your interest in
     ```
     - Open [http://localhost:5173/](http://localhost:5173/) in your browser to see the result.
 
-6. **Commit your changes:**
+6. **Run the linter and fix any issues:**
+    ```bash
+    yarn lint
+    ```
+
+7. **Commit your changes:**
     ```bash
     git add .
     git commit -m "feat: Add a concise commit message describing your changes"
     ```
     - Please use conventional commit messages. You can find more information about conventional commits [here](#using-conventional-commits).
 
-7. **Push the changes to your forked repository:**
+8. **Push the changes to your forked repository:**
     ```bash
     git push origin [feature-branch]
     ```
     - Replace `[feature-branch]` with a descriptive branch name reflecting the changes you plan to make.
 
-8. **Open a pull request on the [main repository](https://github.com/armancodv/frontend-interview/compare) from your feature branch on your forked repository.**
+9. **Open a pull request on the [main repository](https://github.com/armancodv/frontend-interview/compare) from your feature branch on your forked repository.**
     - Provide a clear title and description for your pull request.
     - Include the related issue number in the PR description.
     - Utilize the PR template for your PR.
