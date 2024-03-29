@@ -10,6 +10,7 @@ export default defineConfig({
     base: '/',
     srcDir: 'docs',
     outDir: 'dist',
+    ignoreDeadLinks: true,
     themeConfig: {
         nav: navItems,
         sidebar: sidebar,
