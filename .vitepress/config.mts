@@ -7,7 +7,7 @@ import {socialLinks} from "../navigation/social-links";
 export default defineConfig({
     title: "Frontend Interview Questions",
     description: "List of frontend interview questions",
-    base: '/frontend-interview/',
+    base: '/',
     srcDir: 'docs',
     outDir: 'dist',
     themeConfig: {
@@ -27,7 +27,7 @@ export default defineConfig({
         },
     },
     sitemap: {
-        hostname: 'https://armancodv.github.io/frontend-interview/',
+        hostname: 'https://interview.armanko.com/',
     },
     markdown: {
         container: {
