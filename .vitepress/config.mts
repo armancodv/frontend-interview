@@ -26,6 +26,9 @@ export default defineConfig({
             }
         },
     },
+    sitemap: {
+        hostname: 'https://armancodv.github.io/frontend-interview/',
+    },
     markdown: {
         container: {
             tipLabel: 'Key Notes',
