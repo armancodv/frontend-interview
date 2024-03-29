@@ -38,4 +38,12 @@ export const sidebar: DefaultTheme.Sidebar = [
 		base: '/typescript',
 		items: [{ text: 'Coming Soon', link: '/' }],
 	},
+	{
+		text: 'About',
+		base: '/about',
+		items: [
+			{ text: 'About', link: '/' },
+			{ text: 'Contributing', link: '/contributing' }
+		],
+	},
 ]
