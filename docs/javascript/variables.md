@@ -1,7 +1,6 @@
 # Javascript Variables and Scope
 
-
-## What are variables in javascript?
+## 1. What are variables in javascript?
 
 In JavaScript, variables are like containers that hold different kinds of information, such as numbers, texts, or true/false values. They're used to store data that can change or be manipulated throughout a program. When we create a variable, we give it a name and assign a value to it using the '=' sign. This value can be updated or changed as needed during the program's execution. Variables make it easier for developers to work with and manage data within their code, helping to create dynamic and interactive web applications.
 
@@ -12,7 +11,7 @@ In JavaScript, variables are like containers that hold different kinds of inform
 - The value stored in a variable can be changed or updated throughout the program's execution.
 :::
 
-## What are the different variable types in JavaScript?
+## 2. What are the different variable types in JavaScript?
 
 In JavaScript, variable types are the different kinds of data that a variable can hold. There are several types, including numbers (like `5` or `3.14`), strings (like `hello` or `world`), booleans (`true` or `false), arrays (lists of values), objects (collections of key-value pairs), and more. Each type behaves differently and can be used for different purposes in a JavaScript program. For example, numbers are used for mathematical operations, strings are used for text, and booleans are used for making decisions in code. Understanding variable types is important for writing effective and functional JavaScript programs.
 
@@ -28,7 +27,7 @@ In JavaScript, variable types are the different kinds of data that a variable ca
 - BigInt: Represents integers with arbitrary precision, useful for handling large numbers.
 :::
 
-## How to declare variables in JavaScript?
+## 3. How to declare variables in JavaScript?
 
 In JavaScript, you declare variables using the `var`, `let`, or `const` keywords followed by the name you want to give to the variable. Here's a simple example:
 
@@ -47,7 +46,7 @@ In this code, `myVar` is a variable declared with `var`, `myLet` with `let`, and
 - Optionally, you can initialize the variable with a value.
 :::
 
-## What are the differences between `var`, `let`, and `const` in JavaScript?
+## 4. What are the differences between `var`, `let`, and `const` in JavaScript?
 
 In JavaScript, `var`, `let`, and `const` are all used to declare variables, but they have some differences. `var` is the oldest way to declare variables and has function scope. It means it's accessible throughout the entire function where it's declared. `let` and `const` are newer and have block scope, meaning they're only accessible within the block of code where they're defined (like within loops or if statements). The difference between `let` and `const` is that variables declared with `let` can be reassigned later, while variables declared with `const` cannot be reassigned after they're initially given a value. So, `let` is for variables that might change, while `const` is for ones that won't.
 
@@ -70,7 +69,7 @@ In JavaScript, `var`, `let`, and `const` are all used to declare variables, but 
     - Useful for declaring variables that won't change their value.
 :::
 
-## What are primitive and referenced types in JavaScript?
+## 5. What are primitive and referenced types in JavaScript?
 
 In JavaScript, primitive types are basic data types like numbers, strings, booleans, null, and undefined. They hold simple values directly. For example, a number like `5` or a string like `hello` are primitive types. Referenced types, on the other hand, are more complex data types like objects and arrays. They hold collections of data and are referenced by memory address. For instance, an object like `{ name: "John", age: 25 }` or an array like `[1, 2, 3]` are referenced types. When you work with primitive types, you manipulate the actual value, whereas with referenced types, you manipulate the reference to the value's location in memory.
 
@@ -86,7 +85,7 @@ In JavaScript, primitive types are basic data types like numbers, strings, boole
     - With referenced types, you manipulate the reference to the value's location in memory.
 :::
 
-## What is the list of primitive types in JavaScript?
+## 6. What is the list of primitive types in JavaScript?
 
 In JavaScript, there are several primitive types. These are basic types of data that the language recognizes. The list includes string, which is for text; number, for numerical values; bigInt, for handling large integers; boolean, which represents true or false values; null, used to signify the absence of any value; undefined, which indicates that a variable has been declared but hasn't been assigned a value yet; and symbol, which is used to create unique identifiers for object properties. These types are the building blocks for creating and manipulating data in JavaScript programs.
 
@@ -100,7 +99,7 @@ In JavaScript, there are several primitive types. These are basic types of data 
 - Symbol: Creates unique identifiers for object properties.
 :::
 
-## What is `typeof` in JavaScript?
+## 7. What is `typeof` in JavaScript?
 
 In JavaScript, `typeof` is a special operator that helps you figure out the type of a value or a variable. It returns a string indicating the type of the operand. For example, if you want to know if a variable named `x` is a number, you can use `typeof x`. It will return `'number'` if `x` is a number. Similarly, if you have a variable `name` and you want to check if it's a string, you can use `typeof name`, and it will return `'string'` if `name` is indeed a string. It's handy when you want to perform different actions based on the type of data you're dealing with in your JavaScript code.
 
@@ -110,7 +109,7 @@ In JavaScript, `typeof` is a special operator that helps you figure out the type
 - It returns a string indicating the type of the operand.
 :::
 
-## What are `typeof` different data types in JavaScript?
+## 8. What are `typeof` different data types in JavaScript?
 
 In JavaScript, `typeof` is a keyword used to find out the type of a value. Here's a simple explanation for each type:
 
@@ -174,7 +173,7 @@ These examples demonstrate how `typeof` works with different data types in JavaS
 - `function`: Represents a block of reusable code. Example: `typeof function() {}; // Output: "function"`
 :::
 
-## What are the differences between `null` and `undefined` in JavaScript?
+## 9. What are the differences between `null` and `undefined` in JavaScript?
 
 In JavaScript, `null` and `undefined` are both special values that represent the absence of meaningful data, but they're used in slightly different ways. `Undefined` means a variable has been declared but has not been assigned a value yet. It's like an empty box - there's nothing inside it. On the other hand, `null` is an explicitly assigned value that represents nothing or no value. It's like having a box, but deliberately putting nothing in it. So, while both represent emptiness, `undefined` usually indicates a variable that hasn't been initialized, while `null` is typically assigned to indicate no value on purpose.
 
@@ -183,7 +182,7 @@ In JavaScript, `null` and `undefined` are both special values that represent the
 - Null represents an intentional absence of any value.
 :::
 
-## What is scope in JavaScript?
+## 10. What is scope in JavaScript?
 
 In JavaScript, scopes define where variables are accessible or visible within your code. When you declare a variable, its scope determines where you can use it. There are mainly two types of scopes: global and local. Global scope means the variable can be accessed from anywhere in your code, while local scope means it's only accessible within a specific block of code, like inside a function. Here's a simple example:
 
@@ -212,7 +211,7 @@ In this example, `globalVar` is accessible both inside and outside the function 
 - Accessing variables outside their scope results in errors.
 :::
 
-## Which blocks create a scope in JavaScript?
+## 11. Which blocks create a scope in JavaScript?
 
 In JavaScript, blocks like functions, loops (like `for` or `while`), and conditional statements (like `if` or `switch`) create what's called a scope. This means that any variables declared inside these blocks are only accessible within that block. Here's a simple example:
 
@@ -246,7 +245,7 @@ In each of these examples, the variables `x`, `i`, and `y` are only accessible w
 - Conditional statements (like `if` or `switch`): Variables declared inside conditional blocks are scoped to those conditionals.
 :::
 
-## Why is it recommended not to use `var` in JavaScript?
+## 12. Why is it recommended not to use `var` in JavaScript?
 
 Using `var` in JavaScript is not recommended because it has a scope that can sometimes be confusing. When you declare a variable with `var`, it can be hoisted to the top of its scope, meaning the variable declaration is moved to the top of the function or global scope. This can lead to unexpected behavior and bugs in your code. Additionally, `var` doesn't respect block scope, which means variables declared inside blocks like if statements or loops can leak out of those blocks. Instead, it's better to use `let` and `const`, introduced in ES6, which have block scope and provide clearer intentions for your code. Here's a simple example:
 
@@ -278,7 +277,7 @@ In the first example with `var`, `message` is accessible outside of the if block
 - `let` and `const`, introduced in ES6, offer block-level scoping, making code more predictable and easier to understand.
 :::
 
-## What is closure in JavaScript?
+## 13. What is closure in JavaScript?
 
 In JavaScript, closure is when a function remembers the variables outside of it, even after the function finishes executing. This means that the function has access to those variables even though they are not directly inside it. Here's a simple example:
 
@@ -305,7 +304,7 @@ In this code, `innerFunction` can access the `outerVariable` even after `outerFu
 - This behavior enables powerful programming patterns like encapsulation and data privacy.
 :::
 
-## What is Hoisting?
+## 14. What is Hoisting?
 
 Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, regardless of where they are declared in the code. When a variable or function is hoisted, it means they're available for use before they're actually declared in the code.
 
