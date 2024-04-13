@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/armancodv/frontend-interview/compare/v1.0.0...v1.1.0) (2024-04-13)
+
+
+### Features
+
+* add change log ([ed76175](https://github.com/armancodv/frontend-interview/commit/ed76175aeafdb00bdf6841a50a5796dd0bf1be39))
+
 # 1.0.0 (2024-04-13)
 
 
