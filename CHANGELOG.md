@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/armancodv/frontend-interview/compare/v1.1.0...v1.2.0) (2024-04-13)
+
+
+### Features
+
+* add numbering to react home page ([15710b0](https://github.com/armancodv/frontend-interview/commit/15710b0894093233b2df55265296a3c88f5a97ea))
+
 # [1.1.0](https://github.com/armancodv/frontend-interview/compare/v1.0.0...v1.1.0) (2024-04-13)
 
 
