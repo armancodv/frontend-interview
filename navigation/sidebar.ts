@@ -47,6 +47,7 @@ export const sidebar: DefaultTheme.Sidebar = [
 		items: [
 			{ text: 'About', link: '/' },
 			{ text: 'Contributing', link: '/contributing' },
+			{ text: 'Changelog', link: '/changelog' },
 		],
 	},
 ]
