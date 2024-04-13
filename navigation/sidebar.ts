@@ -20,7 +20,7 @@ export const sidebar: DefaultTheme.Sidebar = [
 			{ text: 'Objects', link: '/objects' },
 			{ text: 'Classes', link: '/classes' },
 			{ text: 'Maps and Sets', link: '/maps-and-sets' },
-			{ text: 'Arrays', link: '/soon' },
+			{ text: 'Arrays', link: '/arrays' },
 			{ text: 'Loops', link: '/soon' },
 			{ text: 'Functions', link: '/soon' },
 			{ text: 'Asynchronous', link: '/soon' },
