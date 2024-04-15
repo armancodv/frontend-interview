@@ -3,6 +3,7 @@ name: Version
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 concurrency:
   group: version
