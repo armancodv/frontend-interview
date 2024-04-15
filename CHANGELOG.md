@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/armancodv/frontend-interview/compare/v1.2.0...v1.3.0) (2024-04-15)
+
+
+### Features
+
+* add javascript arrays and functions questions and answers ([1c59b1f](https://github.com/armancodv/frontend-interview/commit/1c59b1fefb72a768cf1fcef9975e8116d25744ce))
+
 # [1.2.0](https://github.com/armancodv/frontend-interview/compare/v1.1.0...v1.2.0) (2024-04-13)
 
 
